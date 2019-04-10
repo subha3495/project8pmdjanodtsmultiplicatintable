@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#8a2be2">
+<center><table border="2">
+    {% for p in values %}
+    <tr><td>{{tb}}</td><td>{{p}}</td><td>
+        {% widthratio p 1 tb %}</td></tr>
+    {% endfor %}
+</table>
+    <a href="./input">click here to display another table</a>
+</center>
+
+</body>
+</html>
